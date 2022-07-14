@@ -14,3 +14,4 @@ Finally accuracy for vgg16 after 20 epochs.
 Model is saved as model_vgg16.h5
 ## Model deployement is done using Azure
 Initially tried deployment using Heroku but file size was large.
+Model link  :https://carbrand.azurewebsites.net
