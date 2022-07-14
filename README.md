@@ -1,4 +1,4 @@
-Heroku App: https://carbranding.herokuapp.com/
+###Heroku App: https://carbranding.herokuapp.com/
 # Car-Brand-Prediction Using VGG16 
 Initially used ResNet50 for transfer learning to train the model. It predicts brand of the car among the 4 car brands (Audi,Lamborghini,Mercedes,Porsche)
 Training image contains 126 car images and testing image contains 80 images.
