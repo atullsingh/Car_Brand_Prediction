@@ -1,4 +1,4 @@
-###Heroku App: https://carbranding.herokuapp.com/
+### Heroku App: https://carbranding.herokuapp.com/
 # Car-Brand-Prediction Using VGG16 
 Initially used ResNet50 for transfer learning to train the model. It predicts brand of the car among the 4 car brands (Audi,Lamborghini,Mercedes,Porsche)
 Training image contains 126 car images and testing image contains 80 images.
@@ -12,6 +12,7 @@ Because of above steps accuracy increased marginally.
 Also added a dense layer before the output with the activation function relu
 Finally accuracy for vgg16 after 20 epochs.
 #### Accuracy:100 % , Validation_Accuracy=80 %
+
 Model is saved as model_vgg16.h5
 ## Model deployement is done using Heroku
 Initially tried deployment using Azure but after few checks it stopped working. Decided to use Heroku for deployement
