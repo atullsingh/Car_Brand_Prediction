@@ -13,6 +13,7 @@ Also added a dense layer before the output with the activation function relu
 Finally accuracy for vgg16 after 20 epochs.
 #### Accuracy:100 % , Validation_Accuracy=80 %
 Model is saved as model_vgg16.h5
-## Model deployement is done using Azure
-Initially tried deployment using Heroku but file size was large. Decided to use Microsoft Azure for deployement
-Model link  :https://carbrand.azurewebsites.net
+## Model deployement is done using Heroku
+Initially tried deployment using Azure but after few checks it stopped working. Decided to use Heroku for deployement
+Azure app link  :https://carbrand.azurewebsites.net
+## This repository does not contain model_vgg.h5 file because of its large size
