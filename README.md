@@ -13,7 +13,8 @@ Also added a dense layer before the output with the activation function relu
 Finally accuracy for vgg16 after 20 epochs.
 #### Accuracy:100 % , Validation_Accuracy=80 %
 
-![Accuracy](AccVal_acc.png)
+
+![AccVal_acc](https://user-images.githubusercontent.com/30233432/179051016-8ae6c84e-c13c-431a-b87b-26c1864ea7df.png)
 
 Model is saved as model_vgg16.h5
 ## Model deployement is done using Heroku
